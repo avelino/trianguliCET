@@ -1,0 +1,30 @@
+Id                  N4                               1
+P01                 M2                               5
+P02                 M39:3                            7   
+P03                 M39:3                            46   
+P04                 M2                               85     
+P05                 M8:1                             87
+p06_f1              M2                               95     
+p06_f2              M2                               97     
+p06_f3              M2                               99      
+p06_f4              M2                               101      
+p06_f5              M2                               103      
+p06_f6              M2                               105      
+p06_f7              M2                               107      
+P07                 M2                               109      
+P08_f1              M2                               111      
+P08_f2              M2                               113      
+P08_f3              M2                               115      
+P08_f4              M2                               117      
+P09                 M1                               119
+P10                 M39:3                            120      
+P10outromodo        M39:3                            120      
+Sexo                M1                               159
+Idade               M1                               160
+Tempo               M1                               161
+Local               M2                               162    
+Funcao              M1                               164
+peso                M9                               201     
+
+
+temos este arquivo definido para uso interno apenas

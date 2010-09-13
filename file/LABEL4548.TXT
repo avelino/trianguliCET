@@ -1,0 +1,872 @@
+/P01  
+ttl          Q.01 - De uma forma geral, qual o seu n°vel de satisfaá∆o com a forma com a qual est† sendo comunicado 
+ttl                 todo o processo de integraá∆o do Grupo Santander Brasil?  
+ttl                 Use uma escala de 0 a 10, onde "0" significa "totalmente insatisfeito" e "10" significa "totalmente satisfeito". 
+ttl
+fld c5:2
+0 'TOTALMENTE INSATISFEITO [0]'
+1 '1 [1]'
+2 '2 [2]'
+3 '3 [3]'
+4 '4 [4]'
+5 '5 [5]'
+6 '6 [6]'
+7 '7 [7]'
+8 '8 [8]'
+9 '9 [9]'
+10 'TOTALMENTE SATISFEITO [10]'
+9,10 'TOP 2 BOX'
+1,2 'BOTTON 2 BOX'
+
+/P02
+ttl             Q.02 - (SE 0 a 6 NA Q.01) Por que vocà n∆o est† totalmente satisfeito(a) com a forma com a qual est† sendo comunicado 
+ttl                    o processo de integraá∆o do Grupo Santander Brasil? 
+ttl
+fld c7,c45:3
+net1INTEGRAÄ«O - NET (net)
+501 'Integraá∆o acontecendo de forma muito r†pida e n∆o sendo comunicada, e sem se ter tempo de acompanhar'
+502 'Transformaá‰es, mudanáas ocorridas acaba mexendo com a rotina, gerando irritaá∆o, alterando muito o cotidiano'
+503 'N∆o se est† somando o que se tem de melhor nos dois bancos e sim o que cada gestor entende como melhor / o que for melhor ao banco'
+504 'Falta de maior agilidade neste processo de integraá∆o / falta sintonia entre falar e agir'
+505 'Est† se tendo muito foco no processo de integraá∆o e se esquecendo do cliente / clientes meio que abandonados'
+506 'N∆o se percebe na sua totalidade quando vai ser realmente a integraá∆o entre Santander e Real / algumas †reas j† totalemte integradas e outras n∆o'
+507 'Como est∆o as integraá‰es fora de S∆o Paulo, em outras cidades / das regionais / redes'
+508 'Na integraá∆o como fica o modelo do "novo banco" (estrutura hier†rquicas, marcas, produtos e serviáos, divis∆o de cargos, regionais...)'
+509 'Das localizaá‰es das †reas, ramais telefìnicos, nomes / mapeamentos das †reas'
+510 'Falta posicionamento quanto as marcas  Real / Santander'
+511 'N∆o tem a previs∆o de ter todos os prÇdios administrativos migrados e previs∆o para cada †rea / quem vai pra onde (torre, casas, Paulista...)'
+512 'N∆o se tem um cronograma / planejamento das v†rias aá‰es que acontecem durante um processo de integraá∆o'
+513 'Falta de organizaá∆o / processo de integraá∆o muito bagunáado / desorganizado'
+net1FUNCIONµRIOS / RELACIONAMENTOS - NET (net)
+531 'Ter / deveria ter maior relacionamento e integraá∆o entre as pessoas / pessoas das †reas envolvidas'
+532 'Muita press∆o sobre os funcion†rios, muita pressa em se fazer as coisas'
+533 'Funcion†rios perdendo facilidade que tinha antes da integraá∆o / alguns funcion†rios ganhando outros perdendo'
+534 'Falta de ouvir sugest‰es dos funcion†rios / serem mais pensantes do que operacionais'
+535 'Falta de treinamento Ös equipes durante o processo de integraá∆o / equipes, pessoas sem muitos conhecimentos '
+536 'Como ficar∆o os funcion†rios / haver† demiss‰es / reaproveitamento de funcion†rios em locais / cidades onde n∆o tinha agància '
+537 'Da necessidade de se construir tudo de novo para justificar promoá‰es, cursos / seremos medidos, comparados e avaliados'
+539 'Insatisfaá∆o / desmotivaá∆o dos funcion†rios devido ao clima organizacional que se est† mostrando'
+net1PRODUTOS E SERVIÄOS - NET (net)
+551 'Falta de planejamento / muitos produtos sendo lanáados ao mesmo tempo / faltando foco e diretrizes'
+552 'Algumas †reas j† integradas, trabalhando produtos e serviáos como grupo e pouco divulgadas'
+553 'Muita burocracia nos processos de suporte e novos projetos'
+554 'Os clientes s∆o informados de procedimentos e novidades antes dos funcion†rios'
+net1INFORMAÄÂES - NET (net)
+571 'N∆o h† informaá‰es claras, transparentes, falta de informaá‰es'
+572 'N∆o se divulga, n∆o passam informaá‰es com antecedància / aviso do que est† se passando / ocorrendo / sendo implementado / mudado'
+573 'Muitas vezes as informaá‰es vem do concorrente do que da pr¢pria organizaá∆o / excesso de boatos / da m°dia / de conversas paralelas / r†dio pe∆o'
+574 'Falta de mais agilidade / rapidez nas informaá‰es'
+575 'Falta um resumo / boletim semanal ou quinzenal informando o que ocorreu / como est† / ficaram as †reas'
+606 'Avisar de maneira mais intensa atravÇs da Intranet quanto as mudanáas, inovaá‰es com esta juná∆o, integraá∆o'
+net1SISTEMAS - NET (net)
+601 'Insatisfaá‰es quanto as falhas / alteraá‰es de sistemas sem terem sido comunicadas a rede de procedimentos / insatisfaá∆o da rede com atendimento Hot Line'
+602 'N∆o se tem um cronograma claro dos sistemas que est∆o sendo migrados / quando os testes ir∆o ocorrer'
+603 'Falta agilidade nos sistemas'
+604 'Ainda h† diversos problemas quanto aos sistemas da computaá∆o (acesso ao Outlook / e-mails ...)'
+605 'Micros apresentando problemas de "excesso" / PSC dando informaá‰es divergentes'
+607 'Problemas no sistema quanto ao cliente (abertura de contas,dep¢sitos, saques, atendimento ao cliente no geral...)'
+net1OUTROS - NET (net);nosort
+651 'Como ficar∆o as vagas / estacionamento p/funcion†rios'
+652 'Falta informaá∆o quanto aos fretados'
+653 'Falta informaá∆o quanto as datas das mudanáas p/ nos programarmos em quest∆o de trÉnsito / hor†rios das conduá‰es / levar crianáas, filhos na escola e depois ir trabalhar...)'
+538 'Empresas / funcion†rios terceirizados com baixa qualidade nos serviáos'
+netend1
+998 'INDIFERENTE PRA MIM';nosort
+999 'N«O SABE';nosort
+995 'N«O RESPONDEU';nosort
+
+/P03
+ttl             Q.03 - (SE 9 ou 10 NA Q.01) Para vocà, quais s∆o os principais pontos positivos da forma com a qual est† sendo  
+ttl                    comunicado o processo de integraá∆o do Grupo Santander Brasil? 
+ttl
+fld c46,c84:3
+net1INTEGRAÄ«O (NET)
+001 'A utilizaá∆o do melhor dos dois bancos / demonstraá∆o do que est† sendo aproveitado o melhor de cada banco'
+002 'Pensando sempre no melhor para o cliente / pensando no cliente / comunicaá∆o na m°dia / redes de TV mostrando o comprometimento dos dois bancos voltados ao cliente'
+007 'Pensando sempre no melhor para o cliente / pensando no cliente / comunicaá∆o na m°dia / redes de TV mostrando o comprometimento dos dois bancos voltados ao cliente'
+003 'Colocando em primeiro lugar a Çtica'
+004 'Passando confianáa da integraá∆o / seguranáa na unificaá∆o'
+008 'Passando confianáa da integraá∆o / seguranáa na unificaá∆o'
+005 'Feita de forma eficaz'
+006 'Da preocupaáao com o bem estar de todos / colaboradores e sociedade'
+009 'Da forma de conduzir a unificaá∆o / integraá∆o sem atrapalhar o dia-a-dia da agància'
+010 'Integraá∆o sendo feita de forma tranquila'
+
+net1INFORMAÄÂES (NET)
+031 'Transparància / clareza nas informaá‰es / nos processos da mudanáa / da integraá∆o'
+032 'A constÉncia de informaá‰es durante o processo / informaá‰es constantemente atualizadas'
+035 'A constÉncia de informaá‰es durante o processo / informaá‰es constantemente atualizadas'
+033 'Informaá‰es objetivas do que est† acontecendo / do que vai acontecer'
+034 'Informaá‰es claras / transparentes aos clientes'
+036 'Rapidez como s∆o passadas essas informaá‰es'
+081 'Comunicaá‰es via e-mails / p†ginas de acesso particulares'
+082 'Newsletter peri¢dico'
+083 'Pela intranet se sabe de tudo o que acontece'
+084 'Informaá‰es via on-line'
+
+net1FUNCIONµRIOS (NET)
+052 'A forte ampliaá∆o de benef°cios aos funcion†rios'
+053 'Pessoas capacitadas no processo / conduzindo o processo'
+054 'Comprometimento / engajamento entre os funcion†rios / de todos / a participaá∆o dos funcion†rios no processo de unificaá∆o'
+056 'Comprometimento / engajamento entre os funcion†rios / de todos / a participaá∆o dos funcion†rios no processo de unificaá∆o'
+055 'A valorizaá∆o dos funcion†rios / oportunidades de crescimento dentro da organizaá∆o'
+057 'A reciclagem dos funcion†rios'
+058 'Funcion†rios aptos a dar informaá‰es da integraá∆o aos clientes'
+051 'Reuni‰es entre funcion†rios e gestores para melhor entendimento do que est† ocorrendo / comunicaá∆o entre funcion†rios / constante entre funcion†rios'
+059 'Reuni‰es entre funcion†rios e gestores para melhor entendimento do que est† ocorrendo / comunicaá∆o entre funcion†rios / constante entre funcion†rios'
+
+net1SISTEMAS (NET)
+085 'Agilidade nos sistemas / na integraá∆o dos sistemas'
+
+net1PRODUTOS E SERVIÄOS (NET)
+091 'Os melhores produtos e serviáos ao cliente / produtos se integrando'
+
+net1MARCA (NET)
+111 'Ganho de valor agregado a marca Santander'
+netend1
+
+995 'N«O RESPONDEU';nosort
+
+/P04     
+ttl             Q.04 - O quanto vocà se sente bem informado sobre os processos de integraá∆o do Grupo Santander Brasil? 
+ttl                    Use uma escala de 0 a 10, onde "0" significa "me sinto muito mal informado" e 
+ttl                    "10" significa "me sinto muito bem informado". 
+ttl
+fld c85:2
+0 'MUITO MAL INFORMADO [0]'
+1 '1 [1]'
+2 '2 [2]'
+3 '3 [3]'
+4 '4 [4]'
+5 '5 [5]'
+6 '6 [6]'
+7 '7 [7]'
+8 '8 [8]'
+9 '9 [9]'
+10 'MUITO BEM INFORMADO [10]'
+
+/P05
+ttl             Q.05 - Quando vocà quer se informar sobre os processos de integraá∆o, quais canais utiliza? (Resposta M£ltipla)
+ttl
+fld c87:1
+1 'Espaáo Integraá∆o na Intranet'
+2 'Comunicados da Integraá∆o recebidos via e-mail'
+3 'Not°cias do Grupo Santander Brasil recebidos diariamente via e-mail'
+4 'Rede em Aá∆o'
+5 'Boletim impresso Integraá∆o Not°cias'
+6 'Conversa com gestores/superiores'
+7 'Reuni‰es espec°ficas de acompanhamento de projetos'
+9 'Nenhum destes';nosort
+
+/p06_f1
+ttl             Q.06 - Espaáo Integraá∆o na Intranet - De uma forma geral, o quanto satisfeito vocà est† com o n°vel de informaá‰es sobre os processos de ..
+ttl
+fld c95:2
+0 'TOTALMENTE INSATISFEITO [0]'
+1 '1 [1]'
+2 '2 [2]'
+3 '3 [3]'
+4 '4 [4]'
+5 '5 [5]'
+6 '6 [6]'
+7 '7 [7]'
+8 '8 [8]'
+9 '9 [9]'
+10 'TOTALMENTE SATISFEITO [10]'
+9,10 'TOP 2 BOX'
+1,2 'BOTTON 2 BOX'
+
+/p06_f2
+ttl             Q.06 - Comunicados da Integraá∆o recebidos via e-mail - De uma forma geral, o quanto satisfeito vocà est† com o n°vel de informaá‰es sobre os processos de ..
+ttl
+fld c97:2
+0 'TOTALMENTE INSATISFEITO [0]'
+1 '1 [1]'
+2 '2 [2]'
+3 '3 [3]'
+4 '4 [4]'
+5 '5 [5]'
+6 '6 [6]'
+7 '7 [7]'
+8 '8 [8]'
+9 '9 [9]'
+10 'TOTALMENTE SATISFEITO [10]'
+9,10 'TOP 2 BOX'
+1,2 'BOTTON 2 BOX'
+
+p06_f3
+ttl             Q.06 - Not°cias do Grupo Santander Brasil recebidos diariamente via e-mail - De uma forma geral, o quanto satisfeito vocà est† com o n°vel de informaá‰es sobre os processos de ..
+ttl
+fld c99:2
+0 'TOTALMENTE INSATISFEITO [0]'
+1 '1 [1]'
+2 '2 [2]'
+3 '3 [3]'
+4 '4 [4]'
+5 '5 [5]'
+6 '6 [6]'
+7 '7 [7]'
+8 '8 [8]'
+9 '9 [9]'
+10 'TOTALMENTE SATISFEITO [10]'
+9,10 'TOP 2 BOX'
+1,2 'BOTTON 2 BOX'
+
+p06_f4
+ttl             Q.06 - Rede em Aá∆o - De uma forma geral, o quanto satisfeito vocà est† com o n°vel de informaá‰es sobre os processos de ..
+ttl
+fld c101:2
+0 'TOTALMENTE INSATISFEITO [0]'
+1 '1 [1]'
+2 '2 [2]'
+3 '3 [3]'
+4 '4 [4]'
+5 '5 [5]'
+6 '6 [6]'
+7 '7 [7]'
+8 '8 [8]'
+9 '9 [9]'
+10 'TOTALMENTE SATISFEITO [10]'
+9,10 'TOP 2 BOX'
+1,2 'BOTTON 2 BOX'
+
+/p06_f5
+ttl             Q.06 - Boletim impresso Integraá∆o Not°cias - De uma forma geral, o quanto satisfeito vocà est† com o n°vel de informaá‰es sobre os processos de ..
+ttl
+fld c103:2
+0 'TOTALMENTE INSATISFEITO [0]'
+1 '1 [1]'
+2 '2 [2]'
+3 '3 [3]'
+4 '4 [4]'
+5 '5 [5]'
+6 '6 [6]'
+7 '7 [7]'
+8 '8 [8]'
+9 '9 [9]'
+10 'TOTALMENTE SATISFEITO [10]'
+9,10 'TOP 2 BOX'
+1,2 'BOTTON 2 BOX'
+
+/p06_f6
+ttl             Q.06 - Conversa com gestores/superiores - De uma forma geral, o quanto satisfeito vocà est† com o n°vel de informaá‰es sobre os processos de ..
+ttl
+fld c105:2
+0 'TOTALMENTE INSATISFEITO [0]'
+1 '1 [1]'
+2 '2 [2]'
+3 '3 [3]'
+4 '4 [4]'
+5 '5 [5]'
+6 '6 [6]'
+7 '7 [7]'
+8 '8 [8]'
+9 '9 [9]'
+10 'TOTALMENTE SATISFEITO [10]'
+9,10 'TOP 2 BOX'
+1,2 'BOTTON 2 BOX'
+
+
+/p06_f7  
+ttl             Q.06 - Reuni‰es espec°ficas de acompanhamento de projetos - De uma forma geral, o quanto satisfeito vocà est† com o n°vel de informaá‰es sobre os processos de ..
+ttl
+fld c107:2
+0 'TOTALMENTE INSATISFEITO [0]'
+1 '1 [1]'
+2 '2 [2]'
+3 '3 [3]'
+4 '4 [4]'
+5 '5 [5]'
+6 '6 [6]'
+7 '7 [7]'
+8 '8 [8]'
+9 '9 [9]'
+10 'TOTALMENTE SATISFEITO [10]'
+9,10 'TOP 2 BOX'
+1,2 'BOTTON 2 BOX'
+
+
+/P07     
+ttl             Q.07 - (SE UTILIZA O BOLETIM IMPRESSO "INTEGRAÄ«O NOT÷CIAS" 5 NA PERG. 5)  Atualmente o Integraá∆o Not°cias Ç 
+ttl                    impresso e distribu°do aos funcion†rios, e tambÇm disponibilizado no Espaáo Integraá∆o da Intranet. Para 
+ttl                    vocà qual a melhor forma de receber o Integraá∆o Not°cias?
+ttl
+fld c109:2
+1 'Impresso e disponibilizado na Intranet'
+2 'Apenas disponibilizado na Intranet    '
+9 'N«O RESPONDERAM                       ';nosort
+
+/P08_f1
+ttl             Q.08 - A quantidade de informaá‰es passadas sobre a integraá∆o Ç suficiente para mim - O quanto vocà concorda ou discorda em relaá∆o aos seguintes aspectos abaixo? 
+ttl
+fld c111:2
+0 'DISCORDO TOTALMENTE [0]'
+1 '1 [1]'
+2 '2 [2]'
+3 '3 [3]'
+4 '4 [4]'
+5 '5 [5]'
+6 '6 [6]'
+7 '7 [7]'
+8 '8 [8]'
+9 '9 [9]'
+10 'CONCORDO TOTALMENTE [10]'
+
+/P08_f2
+ttl             Q.08 - A explicaá∆o das mudanáas, de forma geral, Ç feita de uma maneira clara. - O quanto vocà concorda ou discorda em relaá∆o aos seguintes aspectos abaixo? 
+ttl
+fld c113:2
+0 'DISCORDO TOTALMENTE [0]'
+1 '1 [1]'
+2 '2 [2]'
+3 '3 [3]'
+4 '4 [4]'
+5 '5 [5]'
+6 '6 [6]'
+7 '7 [7]'
+8 '8 [8]'
+9 '9 [9]'
+10 'CONCORDO TOTALMENTE [10]'
+
+/P08_f3
+ttl             Q.08 - As informaá‰es passadas me permitem responder Ös eventuais d£vidas dos nossos clientes - O quanto vocà concorda ou discorda em relaá∆o aos seguintes aspectos abaixo? 
+ttl
+fld c115:2
+0 'DISCORDO TOTALMENTE [0]'
+1 '1 [1]'
+2 '2 [2]'
+3 '3 [3]'
+4 '4 [4]'
+5 '5 [5]'
+6 '6 [6]'
+7 '7 [7]'
+8 '8 [8]'
+9 '9 [9]'
+10 'CONCORDO TOTALMENTE [10]'
+
+/P08_f4
+ttl             Q.08 - As pessoas est∆o bem preparadas para as mudanáas - O quanto vocà concorda ou discorda em relaá∆o aos seguintes aspectos abaixo? 
+ttl
+fld c117:2
+0 'DISCORDO TOTALMENTE [0]'
+1 '1 [1]'
+2 '2 [2]'
+3 '3 [3]'
+4 '4 [4]'
+5 '5 [5]'
+6 '6 [6]'
+7 '7 [7]'
+8 '8 [8]'
+9 '9 [9]'
+10 'CONCORDO TOTALMENTE [10]'
+
+
+/P09  
+ttl             Q.09 - Qual a expectativa dos clientes em relaá∆o Ö qualidade geral dos produtos e serviáos prestados
+ttl                    pelo Grupo Santander Brasil a partir da integraá∆o. Na sua opini∆o, os clientes acham que vai...
+ttl
+fld c119:1
+5 '[5] Melhorar muito                        '
+4 '[4] Melhorar                              '
+3 '[3] Continuar igual (nem melhor, nem pior)'
+2 '[2] Piorar                                '
+1 '[1] Piorar muito                          '
+9 'N∆o sabe'
+
+/P10
+ttl             Q.10 - Por que vocà acha que os clientes tàm esta expectativa? 
+ttl
+fld c120,c158:3
+net1INSTITUIÄ«O (NET)
+
+net2REAL (Subnet)
++Clientes confiam no comando do F†bio Barbosa do Banco Real=108
++Real conhecido pelo tratamento / humanizaá∆o que d† aos clientes e funcion†rios e o Santander de ser um banco ligado mais a valores/vendas/cumprimento de metas, n∆o juná∆o dessas particular...=011
+    
+net2SANTANDER  - (Subnet)
++Santander Ç mais focado em vendas / resultados / n£meros / press∆o por metas / clientes s∆o apenas n£meros=532,632
++Clientes tem boa imagem do Santander=103
++Grupo GSB Ç s¢lido / solidez no mercado / Santander um banco s¢lido=021
++Grupo superou a £ltima crise no mercado=022
++Santander se consolidando / se fortalecendo no pa°s=023
++ê um banco internacional=024
++ê um banco inovador / buscando por inovaá‰es visando melhorias=025
++ê um banco de grande porte / um dos maiores=026
++Reconhecido no mercado / imagem que se tem do Santander no mercado=027
++Santander investinto no Brasil / IPO (em m†quinas, equipamentos, reformas / novas agàncias....)=028
++Pela credibilidade que o Santander passa=029
++Est† / ficar† um banco elitizado=030
++Tudo Ç centralizado em S∆o Paulo =511
++ê desorganizado administrativamente=512
++N∆o divulgam as melhorias feitas / que ser∆o feitas=513
++ê um banco muito burocr†tico, ruim de trabalhar=514
++N∆o oferece boas condiá‰es de trabalho aos seus funcion†rios=515
++N∆o oferecem bons benef°cios aos funcion†rios=516
++Atrasam os pagamentos=517
++S∆o r°gidos e controladores=518
++Santander n∆o tem uma boa imagem no mercado m† reputaá∆o=519
++Clientes pensam em fechar a conta no Real assim que mudar a bandeira, pois n∆o gostam do Santander=571
++Cientes acham o Santander um banco agressivo=572
++Clientes n∆o gostam do Santander / j† tiveram experiàncias ruins, desagrad†veis =574
+    
+net2FUS«O (Subnet)
++Projeto de Sustentabilidade / Responsabilidade Social que tinha no Real na juná∆o com o Santander ir† se perder, deixar de existir=531
++Clientes sabem / tem conhecimento das mudanáas que est∆o ocorrendo=101
++Est∆o se unindo / integrando o melhor dos dois bancos / o melhor num £nico banco / o tema "juntos" gera expectativa de  melhora=041
++Bancos com caracter°sticas e culturas diferentes que se tornam mais atrativas=042
++Integraá∆o / fus∆o feita de forma transparente=043
++Santander vai assimilar pontos como meio ambiente / sustentabilidade e responsabilidade social que tinha no Real e colocar em pr†tica=044
++Sem burocracias /  mais f†ceis de trabalhar =045
++Integraá∆o / fus∆o feita de forma objetiva devido a experiàncias de juná‰es anteriores=046
++Mais presentes na m°dia / em propagandas / divulgando essa fus∆o, integraá∆o=047
++Fus∆o ir† fortalecer mais ainda o grupo / uni∆o de dois grandes bancos / bancos conhecidos do p£blico=048
++Agilidade / rapidez / um banco †gil=049
++Vai se tornar mais participativo na vida dos clientes, diagnosticando problemas / criando soluá‰es para atender as necessidades do cliente=050
++Uni∆o deixar† um banco mais competitivo no mercado=051
++Maior e melhores espaáos f°sicos para os clientes / mais conforto=052
++Clientes se sentem seguros / tem seguranáa quanto a fus∆o=104
++Clientes se sentem confiantes / confiam com a fus∆o=105
++Clientes s¢ tem a ganhar com essa fus∆o, pois querem mais produtos e serviáos num s¢ banco / a correria do cotidiano n∆o permite ficar testando bancos=106
++Clientes ficam / est∆o mais otimistas e com boas expectativas de mudanáas para melhor conforme o que Ç passado a elas com relaá∆o a fus‰es, integraá‰es =107
++Todo o jeito de ser do Real / caracter°sticas como: produtos e serviáos, atendimento do Real ir† se perder / deixando de existir=526
++Ter† tambÇm os defeitos do outro banco =533
++Clientes  receosos, medrosos com esta fus∆o, com vis‰es negativas=573
++Clientes n∆o se sentem seguros quanto as informaá‰es passadas=575
++Clientes reclamando da fus∆o / integraá∆o / unificaá∆o, n∆o est∆o gostando=576
++Processo ainda precisa de maturaá∆o / tempo para melhor avaliaá∆o=501
++Muitos dizem que com a fus∆o / integraá∆o muita coisa piorou ou vai piorar s/e=502
++Pelas experiàncias ruins de outras fus‰es, integraá‰es / quem sai perdendo sempre Ç o cliente / consumidor=503
+
+
+
+net1CAPILARIDADE / ACESSIBILIDADE / REDE (NET)
++Tem rede maior de agàncias / maior rede de atendimento=061
++Mudanáas nos terminais / caixas eletronicos com mais  serviáos=062
++Mais caixas eletronicos / mais auto-atendimento=063
++Agàncias mais pr¢ximas aos clientes=064
++Falta de agàncias Santander em algumas regi‰es=541
++Falta de material nos caixas eletronicos (envelopes p/depositos, papel de impress∆o...)=542
++Caixas eletrìnicos dif°ceis de operar / muitos menu de acesso=543
++Poucos caixas eletronicos / pouco caixa no auto-atendimento=544   
+    
+net1PRODUTOS E SERVIÄOS (NET)
++Os dois bancos s∆o semelhantes nos  produtos e serviáos / ir† continuar igual=001
++Novos produtos e serviáos / mais opá‰es  / opá‰es diferenciados=081
++Produtos e serviáos melhores / bons / com qualidade=082
++Pela juná∆o / combinaá∆o dos melhores produtos e serviáos dos dois bancos ir† abrir um leque de oportunidades ao cliente=083
++Do Van Gogh / pelo espaáo Van Gogh voltado a clientes de maior poder aquisitivo / clientes especiais=084
++Maior divulgaá∆o em produtos e serviáos=085
++Por causa do produto Santander Master, uma inovaá∆o depois da fus∆o=086
++Por causa do cart∆o flex (dos dias sem juros no cart∆o)=087
++Clientes acham que ser† mantido o mesmo padr∆o de qualidade em produtos e serviáos=102
++N∆o tem qualidade / bons produtos e serviáos s/e=551
++Enviam produtos e serviáos sem pedir, solicitar (Santander)=552
++Fazem venda / operaá‰es casadas em produtos e serviáos (Santander)=553
++Nem todos os produtos e serviáos est∆o dispon°veis ainda com a fus∆o=554
++N∆o informam sobre novos produtos e serviáos=555
++N∆o informam sobre descontinuidade,  de produtos e serviáos fora de linha=556
++Pouca oferta em produtos e serviáos, sem muitas opá‰es=557
++Produtos e serviáos s∆o praticamente os mesmos, sem muita mudanáa=558
++Clientes divididos na satisfaá∆o dos produtos e serviáos oferecidos pelos dois bancos, uns gostam do Real , outros do Santander=504
+    
+    
+    
+net1ATENDIMENTO (NET)
++Pelo bom atendimento / pela qualidade no atendimento=121
++Maior agilidade, rapidez no atendimento=122
++Especializado e voltado aos aposentados=123
++Atendimento ruim / n∆o s∆o atenciosos / educados =591
++Gerància n∆o presta bom atendimento / n∆o participam da vida do cliente=592
++Atendimento telefìnico ruim, demora / fica esperando ser atendido / Super linha =593
++Outros bancos oferecem atendimento melhor (PersonalitÇ, Ita£, Bradesco...)=594
+    
+net1FUNCIONµRIOS (NET)
++ê desafiador para os funcion†rios tambÇm / gera expectativa / boas perspectivas no funcionario=131
++Funcion†rios aptos / atualizados a darem informaáoes corretas aos clientes=132
++Pelo entrosamento / integraá∆o entre os funcion†rios=133
++A uni∆o / juná∆o dos melhores funcion†rios, dos mais capacitados, treinados, os mais qualificados num s¢ banco=134
++Mais funcion†rios e gerentes no atendimento=135
++Mais parceria com os clientes / mais pr¢ximos=136
++Falta / tem poucos funcion†rios no atendimento ao cliente / nos caixas=601
++Funcion†rios sem qualificaá∆o / sem treinamento / profissionais ruins=602
++Falta de parceria / mais engajamento entre funcion†rios e clientes=603
++N∆o tem autonomia na resoluá∆o de problemas=604
++Gerentes com pouca atuaá∆o / sem dinamismo / n∆o se preocupam c/o cliente=605
++N∆o tiram, n∆o esclarecem as  d£vidas,  informaá‰es aos clientes=606
++N∆o s∆o †geis / r†p°dos nas soluá‰es de problemas=607
+
+net1SISTEMAS (NET)
++Sistemas melhores / mais tecnologia=151
++Sistemas s∆o falhos / ruins / cai sempre / fica fora do ar=621
++N∆o tem a mesma agilidade operacional que tem outros bancos (Ita£...)=622
++Sistemas arca°cos=623
+
+    
+net1CUSTOS (NET)
++Custos mais baratos nas tarifas para produtos e serviáos =161
++Tarifas e juros altos para produtos e serviáos=631
+ 
+
+net1OUTRAS (NET);nosort
++Estamos trabalhando no intuito de mudar as opini‰es das pessoas quanto a aceitaá∆o da integraá∆o / fus∆o dos bancos/acabar com receios/medos das pessoas relaá∆o fus‰es/integraá‰es entre bancos=002
+netend1
+ 
+
++SEM RESPOSTA=998;nosort
+
+
+/P10outromodo
+ttl             Q.10 - Por que vocà acha que os clientes tàm esta expectativa? 
+ttl
+fld c120,c158:3
+
+net1INSTITUIÄ«O (NET)
+
+net2REAL (Subnet)
+108 'Clientes confiam no comando do F†bio Barbosa do Banco Real'
+011 'Real conhecido pelo tratamento / humanizaá∆o que d† aos clientes e funcion†rios e o Santander de ser um banco ligado mais a valores/vendas/cumprimento de metas, n∆o juná∆o dessas particular...'
+    
+net2SANTANDER  - (Subnet)
+532,632 'Santander Ç mais focado em vendas / resultados / n£meros / press∆o por metas / clientes s∆o apenas n£meros'
+103 'Clientes tem boa imagem do Santander'
+021 'Grupo GSB Ç s¢lido / solidez no mercado / Santander um banco s¢lido'
+022 'Grupo superou a £ltima crise no mercado'
+023 'Santander se consolidando / se fortalecendo no pa°s'
+024 'ê um banco internacional'
+025 'ê um banco inovador / buscando por inovaá‰es visando melhorias'
+026 'ê um banco de grande porte / um dos maiores'
+027 'Reconhecido no mercado / imagem que se tem do Santander no mercado'
+028 'Santander investinto no Brasil / IPO (em m†quinas, equipamentos, reformas / novas agàncias....)'
+029 'Pela credibilidade que o Santander passa'
+030 'Est† / ficar† um banco elitizado'
+511 'Tudo Ç centralizado em S∆o Paulo '
+512 'ê desorganizado administrativamente'
+513 'N∆o divulgam as melhorias feitas / que ser∆o feitas'
+514 'ê um banco muito burocr†tico, ruim de trabalhar'
+515 'N∆o oferece boas condiá‰es de trabalho aos seus funcion†rios'
+516 'N∆o oferecem bons benef°cios aos funcion†rios'
+517 'Atrasam os pagamentos'
+518 'S∆o r°gidos e controladores'
+519 'Santander n∆o tem uma boa imagem no mercado m† reputaá∆o'
+571 'Clientes pensam em fechar a conta no Real assim que mudar a bandeira, pois n∆o gostam do Santander'
+572 'Cientes acham o Santander um banco agressivo'
+574 'Clientes n∆o gostam do Santander / j† tiveram experiàncias ruins, desagrad†veis '
+    
+net2FUS«O (Subnet)
+531 'Projeto de Sustentabilidade / Responsabilidade Social que tinha no Real na juná∆o com o Santander ir† se perder, deixar de existir'
+101 'Clientes sabem / tem conhecimento das mudanáas que est∆o ocorrendo'
+041 'Est∆o se unindo / integrando o melhor dos dois bancos / o melhor num £nico banco / o tema "juntos" gera expectativa de  melhora'
+042 'Bancos com caracter°sticas e culturas diferentes que se tornam mais atrativas'
+043 'Integraá∆o / fus∆o feita de forma transparente'
+044 'Santander vai assimilar pontos como meio ambiente / sustentabilidade e responsabilidade social que tinha no Real e colocar em pr†tica'
+045 'Sem burocracias /  mais f†ceis de trabalhar '
+046 'Integraá∆o / fus∆o feita de forma objetiva devido a experiàncias de juná‰es anteriores'
+047 'Mais presentes na m°dia / em propagandas / divulgando essa fus∆o, integraá∆o'
+048 'Fus∆o ir† fortalecer mais ainda o grupo / uni∆o de dois grandes bancos / bancos conhecidos do p£blico'
+049 'Agilidade / rapidez / um banco †gil'
+050 'Vai se tornar mais participativo na vida dos clientes, diagnosticando problemas / criando soluá‰es para atender as necessidades do cliente'
+051 'Uni∆o deixar† um banco mais competitivo no mercado'
+052 'Maior e melhores espaáos f°sicos para os clientes / mais conforto'
+104 'Clientes se sentem seguros / tem seguranáa quanto a fus∆o'
+105 'Clientes se sentem confiantes / confiam com a fus∆o'
+106 'Clientes s¢ tem a ganhar com essa fus∆o, pois querem mais produtos e serviáos num s¢ banco / a correria do cotidiano n∆o permite ficar testando bancos'
+107 'Clientes ficam / est∆o mais otimistas e com boas expectativas de mudanáas para melhor conforme o que Ç passado a elas com relaá∆o a fus‰es, integraá‰es '
+526 'Todo o jeito de ser do Real / caracter°sticas como: produtos e serviáos, atendimento do Real ir† se perder / deixando de existir'
+533 'Ter† tambÇm os defeitos do outro banco '
+573 'Clientes  receosos, medrosos com esta fus∆o, com vis‰es negativas'
+575 'Clientes n∆o se sentem seguros quanto as informaá‰es passadas'
+576 'Clientes reclamando da fus∆o / integraá∆o / unificaá∆o, n∆o est∆o gostando'
+501 'Processo ainda precisa de maturaá∆o / tempo para melhor avaliaá∆o'
+502 'Muitos dizem que com a fus∆o / integraá∆o muita coisa piorou ou vai piorar s/e'
+503 'Pelas experiàncias ruins de outras fus‰es, integraá‰es / quem sai perdendo sempre Ç o cliente / consumidor'
+
+
+
+net1CAPILARIDADE / ACESSIBILIDADE / REDE (NET)
+061 'Tem rede maior de agàncias / maior rede de atendimento'
+062 'Mudanáas nos terminais / caixas eletronicos com mais  serviáos'
+063 'Mais caixas eletronicos / mais auto-atendimento'
+064 'Agàncias mais pr¢ximas aos clientes'
+541 'Falta de agàncias Santander em algumas regi‰es'
+542 'Falta de material nos caixas eletronicos (envelopes p/depositos, papel de impress∆o...)'
+543 'Caixas eletrìnicos dif°ceis de operar / muitos menu de acesso'
+544    'Poucos caixas eletronicos / pouco caixa no auto-atendimento'
+    
+net1PRODUTOS E SERVIÄOS (NET)
+001 'Os dois bancos s∆o semelhantes nos  produtos e serviáos / ir† continuar igual'
+081 'Novos produtos e serviáos / mais opá‰es  / opá‰es diferenciados'
+082 'Produtos e serviáos melhores / bons / com qualidade'
+083 'Pela juná∆o / combinaá∆o dos melhores produtos e serviáos dos dois bancos ir† abrir um leque de oportunidades ao cliente'
+084 'Do Van Gogh / pelo espaáo Van Gogh voltado a clientes de maior poder aquisitivo / clientes especiais'
+085 'Maior divulgaá∆o em produtos e serviáos'
+086 'Por causa do produto Santander Master, uma inovaá∆o depois da fus∆o'
+087 'Por causa do cart∆o flex (dos dias sem juros no cart∆o)'
+102 'Clientes acham que ser† mantido o mesmo padr∆o de qualidade em produtos e serviáos'
+551 'N∆o tem qualidade / bons produtos e serviáos s/e'
+552 'Enviam produtos e serviáos sem pedir, solicitar (Santander)'
+553 'Fazem venda / operaá‰es casadas em produtos e serviáos (Santander)'
+554 'Nem todos os produtos e serviáos est∆o dispon°veis ainda com a fus∆o'
+555 'N∆o informam sobre novos produtos e serviáos'
+556 'N∆o informam sobre descontinuidade,  de produtos e serviáos fora de linha'
+557 'Pouca oferta em produtos e serviáos, sem muitas opá‰es'
+558 'Produtos e serviáos s∆o praticamente os mesmos, sem muita mudanáa'
+504 'Clientes divididos na satisfaá∆o dos produtos e serviáos oferecidos pelos dois bancos, uns gostam do Real , outros do Santander'
+    
+    
+    
+net1ATENDIMENTO (NET)
+121 'Pelo bom atendimento / pela qualidade no atendimento'
+122 'Maior agilidade, rapidez no atendimento'
+123 'Especializado e voltado aos aposentados'
+591 'Atendimento ruim / n∆o s∆o atenciosos / educados '
+592 'Gerància n∆o presta bom atendimento / n∆o participam da vida do cliente'
+593 'Atendimento telefìnico ruim, demora / fica esperando ser atendido / Super linha '
+594 'Outros bancos oferecem atendimento melhor (PersonalitÇ, Ita£, Bradesco...)'
+    
+net1FUNCIONµRIOS (NET)
+131 'ê desafiador para os funcion†rios tambÇm / gera expectativa / boas perspectivas no funcionario'
+132 'Funcion†rios aptos / atualizados a darem informaáoes corretas aos clientes'
+133 'Pelo entrosamento / integraá∆o entre os funcion†rios'
+134 'A uni∆o / juná∆o dos melhores funcion†rios, dos mais capacitados, treinados, os mais qualificados num s¢ banco'
+135 'Mais funcion†rios e gerentes no atendimento'
+136 'Mais parceria com os clientes / mais pr¢ximos'
+601 'Falta / tem poucos funcion†rios no atendimento ao cliente / nos caixas'
+602 'Funcion†rios sem qualificaá∆o / sem treinamento / profissionais ruins'
+603 'Falta de parceria / mais engajamento entre funcion†rios e clientes'
+604 'N∆o tem autonomia na resoluá∆o de problemas'
+605 'Gerentes com pouca atuaá∆o / sem dinamismo / n∆o se preocupam c/o cliente'
+606 'N∆o tiram, n∆o esclarecem as  d£vidas,  informaá‰es aos clientes'
+607 'N∆o s∆o †geis / r†p°dos nas soluá‰es de problemas'
+
+net1SISTEMAS (NET)
+151 'Sistemas melhores / mais tecnologia'
+621 'Sistemas s∆o falhos / ruins / cai sempre / fica fora do ar'
+622 'N∆o tem a mesma agilidade operacional que tem outros bancos (Ita£...)'
+623 'Sistemas arca°cos'
+
+    
+net1CUSTOS (NET)
+161 'Custos mais baratos nas tarifas para produtos e serviáos '
+631 'Tarifas e juros altos para produtos e serviáos'
+ 
+
+net1OUTRAS (NET);nosort
+002 'Estamos trabalhando no intuito de mudar as opini‰es das pessoas quanto a aceitaá∆o da integraá∆o / fus∆o dos bancos/acabar com receios/medos das pessoas relaá∆o fus‰es/integraá‰es entre bancos'
+netend1
+ 
+
+998 'SEM RESPOSTA';nosort
+
+
+
+
+/Sexo                  
+ttl             PERFIL - SEXO
+ttl
+fld c159:1
+1 'MASCULINO'
+2 'FEMININO'
+
+/*                     ou podemos definir assim (a conversar, pois isto nao coloquei no briefing)
+/*                     desta forma utilizariamos as primeiras linhas deste arquivo
+
+l sexo2                   <-aqui nao Ç o definido, pois sexo2 nao existe. Veja em L band o motivo
+ttl             PERFIL - SEXO
+ttl
++MASCULINO      =sexo'1'
++FEMININO       =sexo'2'
+
+
+/Idade 
+ttl             PERFIL - IDADE
+ttl
+fld c160:1
+1 'ATê 25 anos   '
+2 '26 - 35       '
+3 '36 - 45       '
+4 '46 - 55       '
+5 '56 ou mais    '
+
+ou
+
+l idade 
+ttl             PERFIL - IDADE
+ttl
++ATê 25 anos   =idade'1'
++26 - 35       =idade'2'
++36 - 45       =idade'3'
++46 - 55       =idade'4'
++56 ou mais    =idade'5'
+
+
+
+/Tempo   
+ttl             PERFIL - TEMPO NA EMPRESA
+ttl
+fld c161:1
+1 'MENOS DE 2 ANOS '
+2 'ENTRE 2 E 5     '
+3 'ENTRE 5 E 10    '
+4 'MAIS DE 10 ANOS '
+
+/Local
+ttl             PERFIL - LOCAL
+ttl
+fld c162:2
+20 'PrÇdios Administrativos'
+net1REDE BANCO REAL (NET)
+01 'Rede Banco Real I      '
+02 'Rede Banco Real II     '
+03 'Rede Banco Real III    '
+04 'Rede Banco Real IV     '
+05 'Rede Banco Real V      '
+06 'Rede Banco Real VI     '
+net1REDE SANTANDER (NET)
+11 'Rede Santander I       '
+12 'Rede Santander II      '
+13 'Rede Santander III     '
+14 'Rede Santander IV      '
+15 'Rede Santander V       '
+16 'Rede Santander VI      '
+17 'Rede Santander VII     '
+18 'Rede Santander VIII    '
+19 'Rede Santander IX      '
+netend1
+
+/Funcao  
+ttl             PERFIL - CARGO
+ttl
+fld c164:1
+4 'GERENTE GERAL      '
+3 'GERENTE NEG‡CIOS   '
+2 'GERENTE ATENDIMENTO'
+1 'CAIXAS             '
+5 'DEMAIS FUNÄÂES     '
+
+
+
+/bandeira1
+/*                    calculos estatisticos 99,95,90...  depois passar o que significa cada um deles.
+/*                                   testes 95,ab,cde,fgh
+/*                                   testes 95,90,ab,cde,fgh
+N10TOTAL
+N23SEXO
+fld c159:1
++MASCULINO          =1;id=a
++FEMININO           =2;id=b
+
+N23IDADE 
+fld c160:1
++ATê 35 anos   =1,2;id=c
++36 - 45       =3  ;id=d
++46 ou mais    =4,5;id=e
+
+N23TEMPO EMPRESA   
+fld c161:1
++MENOS DE 2 ANOS      =1  ;id=f
++ENTRE 2 E 10         =2,3;id=g
++MAIS DE 10 ANOS      =4  ;id=h
+
+
+
+/* esta Ç definiá∆o de pesos, pega direto o que houver no banco quando nao houver definiá‰es
+/* Ç um campo numerico e n∆o h† textos (1 = 1, 2 = 2, 15.75 = 15.75)
+
+l pond01
+fld c201:9
+
+
+
+
+
+
+
+
+
+
+
+
+/*  linhas especiais: n∆o sei se faremos isto agora
+
+l p06top2
+n03Espaáo Integraá∆o na Intranet
+n03
++TOP 2 BOX                        =P06f1'9,10'      
++BOTTON 2 BOX                     =P06f1'1,2'
+N03Comunicados da Integraá∆o recebidos via e-mai
+n03
++TOP 2 BOX                        =P06f2'9,10'      
++BOTTON 2 BOX                     =P06f2'1,2'
+n03Not°cias do Grupo Santander Brasil recebidos diariamente via email
+n03
++TOP 2 BOX                        =P06f3'9,10'      
++BOTTON 2 BOX                     =P06f3'1,2'
+n03Rede em Aá∆o
+n03
++TOP 2 BOX                        =P06f4'9,10'      
++BOTTON 2 BOX                     =P06f4'1,2'
+n03Boletim impresso Integraá∆o Not°cias
+n03
++TOP 2 BOX                        =P06f5'9,10'      
++BOTTON 2 BOX                     =P06f5'1,2'
+n03Conversa com gestores/superiores
+n03
++TOP 2 BOX                        =P06f6'9,10'      
++BOTTON 2 BOX                     =P06f6'1,2'
+n03Reuni‰es espec°ficas de acompanhamento de projetos
+n03
++TOP 2 BOX                        =P06f7'9,10'      
++BOTTON 2 BOX                     =P06f7'1,2'
+
+
+
+l band1
+calculos estatisticos 99,95,90...  depois passar o que significa cada um deles.
+testes 95,ab,cde,fgh
+testes 95,90,ab,cde,fgh
+N10TOTAL
+N23SEXO
++MASCULINO          =SEXO'1';id=a
++FEMININO           =SEXO'2';id=b
+
+N23IDADE 
++ATê 35 anos   =IDADE'1,2';id=c
++36 - 45       =IDADE'3'  ;id=d
++46 ou mais    =IDADE'4,5';id=e
+
+N23TEMPO EMPRESA   
++MENOS DE 2 ANOS      =TEMPO'1'  ;id=f
++ENTRE 2 E 10         =TEMPO'2,3';id=g
++MAIS DE 10 ANOS      =TEMPO'4'  ;id=h
+
+
+/l band2
+calculos estatisticos 99,95,90...  depois passar o que significa cada um deles.
+testes 95,abc,def,ghi
+testes 95,90,abc,def,ghi
+
+N23MASCULINO 
+N10TOTAL
++ATê 35 anos   =IDADE'1,2' .AND. SEXO'1';id=a
++36 - 45       =IDADE'3'   .AND. SEXO'1';id=b
++46 ou mais    =IDADE'4,5' .AND. SEXO'1';id=c
+
+N23FEMININO 
+N10TOTAL
++ATê 35 anos   =IDADE'1,2' .AND. SEXO'2';id=d
++36 - 45       =IDADE'3'   .AND. SEXO'2';id=e
++46 ou mais    =IDADE'4,5' .AND. SEXO'2';id=f
+
+N23TEMPO EMPRESA   
++MENOS DE 2 ANOS      =TEMPO'1'  ;id=g
++ENTRE 2 E 10         =TEMPO'2,3';id=h
++MAIS DE 10 ANOS      =TEMPO'4'  ;id=i
+
+
+
+
+portanto temos
+n23 Ç um titulo para as bandeiras
+n10 Ç um total 
+n03 Ç um texto
+
