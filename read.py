@@ -3,7 +3,6 @@
 
 from pymongo import Connection
 from pymongo.binary import Binary
-import String
 
 connection = Connection()
 db = connection.cet
@@ -32,6 +31,9 @@ def p(openfile):
 def label(openfile):
 	f = open('file/%s' % openfile,'r')
 	for line in f:
-		print line[0:5]
+		if line[0:3] == "/P0":
+			if line[0:3] == "ttl":
+				print line[0:19]
 #proj("PROJ.txt")
 #p("p4548.dat")
+label("LABEL4548.TXT")
